@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Alex Smagin" />
+    <meta
+      name="description"
+      content="Welcome to Yours Sports Bar, the heart of sports scene! Located in Downtown Chicago. Yours sports Bar brings a little taste of comfort and home to the hustle and bustle of the city. Hearty meals, award-winning Bloody Mary's, friendly staff, great atmosphere, famous faces… Yours sports Bar has it all. Join us for an unforgettable dining experience."
+    />
+    <meta
+      name="keywords"
+      content="restaurant, fine dining, Chicago's dishes, Chicago, menu, reservation, chef, culinary, gourmet, sports bar, sport"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kameron:wght@400;700&family=Lemon&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="./img/beer-stein-fill.svg" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script type="module" src="./js/index.js"></script>
+    <title>Yours &dash; Sports Bar</title>
+  </head>
+  <body>
+    <main>
+      <!-- MENU -->
+      <section class="menu-page">
+        <div class="header">
+          <div class="header-container">
+            <div class="logo-container">
+              <a href="./menu.html">
+                <img
+                  src="./img/logo.svg#a"
+                  alt="Yours Sports Bar logo"
+                  width="32"
+                  height="32"
+                />
+              </a>
+              <div class="logo-text-container">
+                <p class="logo-text">YOURS</p>
+                <span class="logo-span">sports bar</span>
+              </div>
+            </div>
+            <nav class="header-nav">
+              <ul class="header-menu">
+                <li><a class="header-link" href="./index.html">home</a></li>
+                <li><a class="header-link" href="#about-us">about us</a></li>
+                <li><a class="header-link" href="#events">events</a></li>
+                <li><a class="header-link" href="#">menu</a></li>
+                <li><a class="header-link" href="#gallery">gallery</a></li>
+                <li><a class="header-link" href="#location">location</a></li>
+                <li><a class="header-link" href="#contact">contact</a></li>
+              </ul>
+            </nav>
+
+            <button class="btn-mobile-nav">
+              <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+              <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+        <div class="menu-main-container">
+          <div class="menu-page-text-container">
+            <h1 class="hidden">BAR</h1>
+            <p class="menu-hero-text">
+              Chicago’s Sports Bar with seasonal, local, American cuisine by
+              Chef Dan Kluger located in the heart of Greenwich Village.
+              Reservations are available for indoor/outdoor dining where you can
+              safely enjoy the lovely experience.
+            </p>
+            <button type="button" data-modal-open class="menu-btn">
+              order on-line
+            </button>
+          </div>
+          <div class="menu-hero-img-container">
+            <img
+              class="menu-hero-img"
+              src="./img/menu-desctop@2x.jpg"
+              alt="Steak"
+            />
+          </div>
+        </div>
+        <ul class="social-links-menu">
+          <li>
+            <a href="#" class="social-link"
+              ><svg class="social-icons" width="24" height="24">
+                <use href="./img/icons.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="social-link"
+              ><svg class="social-icons" width="24" height="24">
+                <use href="./img/icons.svg#icon-insta"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <!-- BUTTONS -->
+      <section class="btns-container">
+        <ul class="btns-menu">
+          <li><button class="btns">Burgers</button></li>
+          <li><button class="btns">Sandwiches</button></li>
+          <li><button class="btns">Pizza's</button></li>
+          <li><button class="btns">Barbeque</button></li>
+          <li><button class="btns">Desserts</button></li>
+          <li><button class="btns">Drinks</button></li>
+        </ul>
+      </section>
+      <!-- PHOTOS -->
+      <section class="menu-photos">
+        <h2 class="hidden">BAR MENU</h2>
+        <div class="photos-container">
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/b1.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Prime American Beef</h3>
+                <h4 class="menu-photo-text">Served with two sides.</h4>
+              </div>
+              <span class="menu-photo-price">$14.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/b2.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">The Bacon Cheeseburger</h3>
+                <h4 class="menu-photo-text">Served with side of spicy mayo.</h4>
+              </div>
+              <span class="menu-photo-price">$12.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/b3.jpg"
+              alt="The Bacon Cheeseburger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">BBQ Crispy Chicken Stacker</h3>
+              </div>
+              <span class="menu-photo-price">$11.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/t1.jpg"
+              alt="BBQ Crispy Chicken Stacker"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Baja Tacos</h3>
+                <h4 class="menu-photo-text">
+                  Two braised beef & cheese tacos.
+                </h4>
+              </div>
+              <span class="menu-photo-price">$8.99/3 pcs.</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/t2.jpg"
+              alt="Baja Tacos"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Burrito Dinner</h3>
+                <h4 class="menu-photo-text">
+                  Stuffed with rice, beans, cheese.
+                </h4>
+              </div>
+              <span class="menu-photo-price">$7.99/2 pcs.</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/t3.jpg"
+              alt="Burrito Dinner"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Quesadillas</h3>
+                <h4 class="menu-photo-text">
+                  With melted cheese in flour tortillas.
+                </h4>
+              </div>
+              <span class="menu-photo-price">$8.99/2 pcs.</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/s1.jpg"
+              alt="Quesadillas"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Prime Skirt Steak 10oz</h3>
+              </div>
+              <span class="menu-photo-price">$24.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/s2.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Prime New York Strip 14oz</h3>
+              </div>
+              <span class="menu-photo-price">$44.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/s3.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Tomahawk Ribeye 34oz</h3>
+              </div>
+              <span class="menu-photo-price">$37.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/p1.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">HAWAIIAN</h3>
+                <h4 class="menu-photo-text">Premium mozzarella, ham, bacon.</h4>
+              </div>
+              <span class="menu-photo-price">$12.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/p2.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Buffalo Ranch Chicken</h3>
+                <h4 class="menu-photo-text">
+                  Premium mozzarella, cheddar & bacon.
+                </h4>
+              </div>
+              <span class="menu-photo-price">$14.99</span>
+            </div>
+          </div>
+          <div class="menu-photo-container">
+            <img
+              class="menu-photo-photo"
+              src="./img/menu/p3.jpg"
+              alt="Prime American beef burger"
+            />
+            <div class="menu-photo-text-container">
+              <div>
+                <h3 class="menu-photo-title">Aloha BBQ Chicken</h3>
+                <h4 class="menu-photo-text">
+                  BBQ sauce, mozzarella, grilled chicken.
+                </h4>
+              </div>
+              <span class="menu-photo-price">$12.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer-page-menu">
+      <div class="footer-time-container">
+        <ul class="footer-time-menu">
+          <li class="footer-time-items">
+            <svg class="menu-social-icons" width="24" height="24">
+              <use href="./img/icons.svg#icon-location"></use>
+            </svg>
+            <a
+              class="footer-contacts-links"
+              href="https://goo.gl/maps/mnZJSvKehyi1Mezs6"
+              target="_blank"
+              rel="noopener noreferrer"
+              >9 W Hubbard St, Chicago, IL 60654</a
+            >
+          </li>
+          <li class="footer-time-items">
+            <svg class="menu-social-icons" width="24" height="24">
+              <use href="./img/icons.svg#icon-mail"></use>
+            </svg>
+            <a
+              class="footer-contacts-links"
+              href="mailto:yourssportsbar@gmail.com"
+              >yourssportsbar@gmail.com</a
+            >
+          </li>
+          <li class="footer-time-items">
+            <svg class="menu-social-icons" width="24" height="24">
+              <use href="./img/icons.svg#icon-tel"></use>
+            </svg>
+            <a class="footer-contacts-links" href="tel:+1(773)1213344"
+              >+1 (773) 121 3344</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-time-container">
+        <svg class="menu-social-icons" width="24" height="24">
+          <use href="./img/icons.svg#icon-clock"></use>
+        </svg>
+        <ul>
+          <li>
+            <p class="footer-time-text">Monday - Friday</p>
+          </li>
+          <li>
+            <p class="footer-time-text">11am - 12:00 am</p>
+          </li>
+          <li>
+            <p class="footer-time-text">Saturday & Sunday</p>
+          </li>
+          <li>
+            <p class="footer-time-text">11am - 11:30 pm</p>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu-social-links">
+        <a href="#" class="social-link"
+          ><svg class="social-icons" width="24" height="24">
+            <use href="./img/icons.svg#icon-facebook"></use></svg
+        ></a>
+        <a href="#" class="social-link"
+          ><svg class="social-icons" width="24" height="24">
+            <use href="./img/icons.svg#icon-insta"></use></svg
+        ></a>
+      </div>
+    </footer>
+    <!-- MODAL -->
+    <div class="modal-outter-container">
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal-menu">
+          <button class="modal-close-btn" data-modal-close type="button">
+            <svg class="modal-close" width="32" height="32">
+              <use href="./img/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+          <h2 class="modal-menu-title">order on-line</h2>
+          <p class="modal-tel">
+            Book Directly at <a href="tel:+1(773)1213344">+1 (773) 121 3344</a>
+          </p>
+          <form action="" class="modal-form">
+            <div class="modal-form-container">
+              <label class="modal-label" for="name">Name</label>
+              <input class="modal-input" type="text" id="name" />
+            </div>
+
+            <div class="modal-form-container">
+              <label class="modal-label" for="phone">Phone number</label>
+              <input class="modal-input" type="tel" id="phone" />
+            </div>
+
+            <div class="modal-form-container">
+              <label class="modal-label" for="comment">Your message</label>
+              <textarea
+                class="modal-input"
+                name="comment"
+                cols="20"
+                rows="5"
+                id="comment"
+              ></textarea>
+              <p class="modal-label">We respect your privacy.</p>
+            </div>
+            <button class="modal-btn" type="submit">ORDER</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
