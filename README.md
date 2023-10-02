@@ -1,4 +1,4 @@
-# Building Responsive Webdesign animated with HTML/CSS and JavaScript - freelance project "Yours sports Bar"
+# Building Responsive Webdesign with HTML/CSS and JavaScript - freelance project "Yours sports Bar"
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 ## Project Specifications:
